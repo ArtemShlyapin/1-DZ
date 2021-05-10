@@ -1,8 +1,7 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-    cout << "Hello, Git!" << endl;
-
+    std::cout << "Hello, Git!" << '\n';
+    std::cout << "Next commit Hello!" << '\n';
     return 0;
 }
